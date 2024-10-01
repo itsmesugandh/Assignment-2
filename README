@@ -1,7 +1,4 @@
-
-              Administrative Structure      
-
-                OVERVIEW
+Administrative Structure
 
 The administrative structure of IIIT-Delhi consists of five departments, each headed by a dean, optionally assisted by an associate dean. The departments are:
 
@@ -32,21 +29,3 @@ Based on the observation of the positions assigned and departments assigned to e
         Dean of Library
             Associate Dean of Library (optional)
             Other officers in Library
-
-
-Files:
-
-   academic.csv
-   administrative.csv
-
-Build & Run:
-
-    1.for run I Test my code With this code g++ mycode1.cpp -o mycode1
-    2.then execute ./mycode1
-    3.for run I Test my code With this code g++ mycode2.cpp -o mycode2
-    4.then execute ./mycode2
-    5.for run I Test my code With this code g++ mycode3.cpp -o mycode3 
-    6.then execute ./mycode3
-
-     Resources
-      take reference for  Run and Debug this code from internet
