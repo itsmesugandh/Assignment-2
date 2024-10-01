@@ -1,0 +1,31 @@
+Administrative Structure
+
+The administrative structure of IIIT-Delhi consists of five departments, each headed by a dean, optionally assisted by an associate dean. The departments are:
+
+    IRD
+    Academics
+    Student Affairs
+    Store & Purchase
+    Library
+The entire administrative structure is headed by the registrar.
+
+Modeling the Administrative Structure
+
+Based on the observation of the positions assigned and departments assigned to each person on the IIIT-Delhi administration webpage, we can model the administrative structure as follows:
+
+    Registrar
+        Dean of IRD
+            Associate Dean of IRD (optional)
+            Other officers in IRD
+        Dean of Academics
+            Associate Dean of Academics (optional)
+            Other officers in Academics
+        Dean of Student Affairs
+            Associate Dean of Student Affairs (optional)
+            Other officers in Student Affairs
+        Dean of Store & Purchase
+            Associate Dean of Store & Purchase (optional)
+            Other officers in Store & Purchase
+        Dean of Library
+            Associate Dean of Library (optional)
+            Other officers in Library
