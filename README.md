@@ -1,52 +1,76 @@
 
-              Administrative Structure      
+`
+# IIIT-Delhi Library Management System
 
-                OVERVIEW
+## Overview
 
-The administrative structure of IIIT-Delhi consists of five departments, each headed by a dean, optionally assisted by an associate dean. The departments are:
+This project models the administrative and academic structures of IIIT-Delhi, focusing on library management. It includes five administrative departments—IRD, Academics, Student Affairs, Store & Purchase, and Library—headed by deans (optionally assisted by associate deans), with the overall structure managed by a registrar. The library system manages books, journals, and publication rankings, providing functionalities for users to access and manage library items.
 
-    IRD
-    Academics
-    Student Affairs
-    Store & Purchase
-    Library
-The entire administrative structure is headed by the registrar.
+## File Structure
 
-Modeling the Administrative Structure
+- `main.cpp`: Entry point of the program that manages user interactions.
+- `Book.cpp` / `Book.h`: Implementation and definition of the Book class for managing book details.
+- `User.cpp` / `User.h`: Implementation and definition of the User class, representing library users.
+- `Journals.cpp` / `Journals.h`: Implementation and definition of the Journals class for managing journal entries.
+- `PublicationRank.cpp` / `PublicationRank.h`: Implementation and definition of the PublicationRank class for ranking publications.
+- `Library.cpp` / `Library.h`: Implementation and definition of the Library class, encapsulating library operations.
+- `classFunctions.cpp`: Contains miscellaneous functions related to class operations.
+- `functions.cpp`: Includes various helper functions used throughout the project.
+- `LibraryItem.cpp`: Manages library items, including books and journals.
 
-Based on the observation of the positions assigned and departments assigned to each person on the IIIT-Delhi administration webpage, we can model the administrative structure as follows:
+## Compilation and Execution
 
-    Registrar
-        Dean of IRD
-            Associate Dean of IRD (optional)
-            Other officers in IRD
-        Dean of Academics
-            Associate Dean of Academics (optional)
-            Other officers in Academics
-        Dean of Student Affairs
-            Associate Dean of Student Affairs (optional)
-            Other officers in Student Affairs
-        Dean of Store & Purchase
-            Associate Dean of Store & Purchase (optional)
-            Other officers in Store & Purchase
-        Dean of Library
-            Associate Dean of Library (optional)
-            Other officers in Library
+To compile the program, navigate to the project directory and use the following command:
 
+```bash
+make
+```
 
-Files:
+To run the compiled program, execute:
 
-   academic.csv
-   administrative.csv
+```bash
+make run
+```
 
-Build & Run:
+To clean up the build artifacts (object files and executable), use:
 
-    1.for run I Test my code With this code g++ mycode1.cpp -o mycode1
-    2.then execute ./mycode1
-    3.for run I Test my code With this code g++ mycode2.cpp -o mycode2
-    4.then execute ./mycode2
-    5.for run I Test my code With this code g++ mycode3.cpp -o mycode3 
-    6.then execute ./mycode3
+```bash
+make clean
+```
 
-     Resources
-      take reference for  Run and Debug this code from internet
+## Usage
+
+Upon execution, the program prompts the user to input the name of a person to fetch room numbers, telephone numbers, and email addresses from the system. It also allows for managing library items and user interactions.
+
+### Input Format
+
+- The program accepts names of individuals (e.g., faculty, students) as input to retrieve their contact information.
+
+## Dependencies
+
+- This project requires a C++ compiler (g++) to compile and run the code.
+- Standard C++ libraries are utilized for functionality.
+
+## Implementation Details
+
+- Classes are used to model the various components of the system, including libraries, books, users, and journals.
+- A Makefile is included to facilitate easy compilation and execution of the project.
+
+## Notes
+
+- Ensure that all necessary header files and global variables are included in the respective source files.
+- The logical structure of the program is maintained as per the requirements.
+
+## Author
+
+Your Name  
+Your Email  
+Your Contact Information
+```
+
+### Instructions for Finalizing
+1. **Replace Placeholder Text**: Update the "Your Name," "Your Email," and "Your Contact Information" with your actual details.
+2. **Test the Project**: Ensure that the provided commands work as expected.
+3. **Format and Add Details**: You can add any additional sections or details as required, such as usage examples or screenshots.
+
+Feel free to modify this README to fit your project’s specific needs and personal style!
